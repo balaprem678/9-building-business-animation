@@ -8,15 +8,15 @@
   overflow: hidden;
 }
 #sample {
-  /* background: url("../images/BG.jpg") repeat-x; */
-  width: 600px;
+    width: 700px;
     height: 250px;
     background-repeat: no-repeat;
   position: absolute;
-  animation: slide 20s linear infinite;
+  overflow: hidden;
+  animation: slide 15s linear infinite;
 }
 @keyframes slide {
-  0% {
+  0%, 100% {
     transform: translate3d(0, 0, 0);
   }
   50% {
