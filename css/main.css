@@ -1,0 +1,137 @@
+.wrapper {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background-color: #fff;
+  top: 82px;
+  left: 246px;
+  overflow: hidden;
+}
+#sample {
+  /* background: url("../images/BG.jpg") repeat-x; */
+  width: 600px;
+    height: 250px;
+    background-repeat: no-repeat;
+  position: absolute;
+  animation: slide 20s linear infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-240px, 0, 0);
+  }
+}
+
+#bg-image-1 {
+  background-color: #6c7890d9;
+  width: 304px;
+  height: 152px;
+  position: absolute;
+  border-bottom: 2px solid #fff;
+  transform-origin: 18% 112%;
+  transition: all 1s ease;
+  transform: translateX(-400px) rotate(-39deg);
+}
+#bg-image-2 {
+  background-color: #6c7890d9;
+  width: 250px;
+  height: 114px;
+  position: absolute;
+  top: 187px;
+  left: 158px;
+  border-top: 2px solid #fff;
+  transform-origin: 33% 92%;
+  transition: all 1s ease;
+  transform: translateX(400px) rotate(-39deg);
+}
+#text-1 {
+  position: absolute;
+  color: #fff;
+  top: -32px;
+  font-size: 25px;
+  left: 17px;
+  font-family: "Poppins Bold";
+  transform: translateX(-300px);
+    transition: all 1s ease;
+    transform-origin: left;
+    opacity: 0;
+}
+#text-2 {
+  position: absolute;
+  color: #fff;
+  top: -9px;
+  font-size: 25px;
+  left: 17px;
+  font-family: "Poppins Bold";
+  transform: translateX(-300px);
+    transition: all 1s ease;
+    transform-origin: left;
+    opacity: 0;
+}
+#text-3 {
+  position: absolute;
+  color: #fff;
+  top: 37px;
+  font-size: 15px;
+  left: 18px;
+  font-family: "Poppins Bold";
+  transform: translateX(-300px);
+    transition: all 1s ease;
+    transform-origin: left;
+    opacity: 0;
+}
+#text-4 {
+  position: absolute;
+  color: #fff;
+  top: 57px;
+  font-size: 15px;
+  left: 18px;
+  font-family: "Poppins Bold";
+  transform: translateX(-300px);
+    transition: all 1s ease;
+    transform-origin: left;
+    opacity: 0;
+}
+#logo {
+  position: absolute;
+  top: 10px;
+  right: 9px;transform: translateY(-300px);
+  transition: all 1s ease;
+  transform-origin: top;
+  opacity: 0;
+}
+#btn {
+  position: absolute;
+  bottom: 26px;
+  right: 9px;
+  transform: translateX(130px);
+    transition: all 1s ease;
+    transform-origin: right;
+    opacity: 0;
+}
+#text-5 {
+  position: absolute;
+  bottom: 5px;
+  right: 19px;
+  color: #00000073;
+  font-family: monospace;
+  font-size: 15px;
+  transform: translateX(130px);
+  transition: all 1s ease;
+  transform-origin: right;
+  opacity: 0;
+}
+#text-6 {
+  position: absolute;
+  bottom: -12px;
+  right: 12px;
+  color: #fff;
+  font-family: monospace;
+  font-size: 11px;
+  right: 9px;transform: translateY(30px);
+  transition: all 1s ease;
+  transform-origin: bottom;
+  opacity: 0;
+}
